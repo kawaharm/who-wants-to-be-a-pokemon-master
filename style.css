@@ -6,8 +6,6 @@ body {
   padding: 0;
   margin: 0;
   background-color: #333;
-  height: 100%;
-  width: 100%;
 }
 
 #startScreen {
@@ -320,13 +318,70 @@ label {
 }
 
 @media screen and (max-width: 960px) {
-  body {
-    height: 50%;
-    width: 50%;
+  #startScreen {
+    height: 900px;
+    width: 750px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  #mainContainer {
+    height: 900px;
+    width: 750px;
+    margin: 20px auto;
+    padding: 30px;
+  }
+
+  #hostContainer {
+    height: 90%;
+  }
+
+  .question {
+    font-size: 90%;
   }
 }
 
 @media screen and (max-width: 768px) {
+  #startScreen {
+    height: 700px;
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  #mainContainer {
+    height: 700px;
+    width: 500px;
+    margin: 10px auto;
+    padding: 30px;
+  }
+
+  #hostContainer {
+    height: 90%;
+    grid-template-columns: 1.75fr 1.25fr;
+    grid-template-rows: 0.25fr 0.25fr 0.5fr;
+  }
+
+  #hostBar {
+    padding: 20px 10px;
+  }
+
+  .question {
+    font-size: 80%;
+  }
+
+  #userContainer {
+    height: 200px;
+  }
+
+  .menu {
+    grid-template-columns: 0.8fr 0.4fr 0.4fr 0.4fr;
+    grid-template-rows: 0.5fr 0.5fr;
+  }
+
+  .choices {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 420px) {
