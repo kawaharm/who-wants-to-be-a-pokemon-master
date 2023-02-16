@@ -18,7 +18,7 @@ I created a case diagram using wireframes that illustrates what events happen wh
 
 ## How To Play
 
-GAME: https://kawaharm.github.io/who-wants-to-be-a-pokemon-master2/
+GAME: https://kawaharm.github.io/who-wants-to-be-a-pokemon-master/
 
 1. At the Start Screen, enter your name and click LET'S PLAY or hit Enter.
 2. In the Main Menu, there are four buttons:
